@@ -1,0 +1,52 @@
+.circular-text {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-text span {
+    position: absolute;
+    transform-origin: 100px 100px; /* Center of the text circle */
+    font-size: 18px;
+    animation: rotateLetter 10s linear infinite;
+  }
+  
+  .circular-text span:nth-child(1) { transform: rotate(0deg) translateX(100px); animation-delay: 0s; }
+  .circular-text span:nth-child(2) { transform: rotate(15deg) translateX(100px); animation-delay: -0.416s; }
+  .circular-text span:nth-child(3) { transform: rotate(30deg) translateX(100px); animation-delay: -0.833s; }
+  .circular-text span:nth-child(4) { transform: rotate(45deg) translateX(100px); animation-delay: -1.25s; }
+  .circular-text span:nth-child(5) { transform: rotate(60deg) translateX(100px); animation-delay: -1.666s; }
+  .circular-text span:nth-child(6) { transform: rotate(75deg) translateX(100px); animation-delay: -2.083s; }
+  .circular-text span:nth-child(7) { transform: rotate(90deg) translateX(100px); animation-delay: -2.5s; }
+  .circular-text span:nth-child(8) { transform: rotate(105deg) translateX(100px); animation-delay: -2.916s; }
+  .circular-text span:nth-child(9) { transform: rotate(120deg) translateX(100px); animation-delay: -3.333s; }
+  .circular-text span:nth-child(10) { transform: rotate(135deg) translateX(100px); animation-delay: -3.75s; }
+  .circular-text span:nth-child(11) { transform: rotate(150deg) translateX(100px); animation-delay: -4.166s; }
+  .circular-text span:nth-child(12) { transform: rotate(165deg) translateX(100px); animation-delay: -4.583s; }
+  .circular-text span:nth-child(13) { transform: rotate(180deg) translateX(100px); animation-delay: -5s; }
+  .circular-text span:nth-child(14) { transform: rotate(195deg) translateX(100px); animation-delay: -5.416s; }
+  .circular-text span:nth-child(15) { transform: rotate(210deg) translateX(100px); animation-delay: -5.833s; }
+  .circular-text span:nth-child(16) { transform: rotate(225deg) translateX(100px); animation-delay: -6.25s; }
+  .circular-text span:nth-child(17) { transform: rotate(240deg) translateX(100px); animation-delay: -6.666s; }
+  .circular-text span:nth-child(18) { transform: rotate(255deg) translateX(100px); animation-delay: -7.083s; }
+  .circular-text span:nth-child(19) { transform: rotate(270deg) translateX(100px); animation-delay: -7.5s; }
+  .circular-text span:nth-child(20) { transform: rotate(285deg) translateX(100px); animation-delay: -7.916s; }
+  .circular-text span:nth-child(21) { transform: rotate(300deg) translateX(100px); animation-delay: -8.333s; }
+  .circular-text span:nth-child(22) { transform: rotate(315deg) translateX(100px); animation-delay: -8.75s; }
+  .circular-text span:nth-child(23) { transform: rotate(330deg) translateX(100px); animation-delay: -9.166s; }
+  .circular-text span:nth-child(24) { transform: rotate(345deg) translateX(100px); animation-delay: -9.583s; }
+  
+  @keyframes rotateLetter {
+    0% {
+      transform: rotate(0deg) translateX(100px);
+    }
+    100% {
+      transform: rotate(360deg) translateX(100px);
+    }
+  }
