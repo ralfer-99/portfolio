@@ -5,10 +5,12 @@ import Layout from '@/components/Layout';
 import Link from 'next/link';
 import { GithubIcon } from '@/components/Icons';
 import Image from 'next/image';
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
+import project2 from '../../public/images/projects/net.png';
 import Image1 from '../../public/images/articles/oucis.png';
 import Image2 from '../../public/images/articles/kidney.png';
 import { motion } from 'framer-motion';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -90,6 +92,8 @@ const Projects = () => {
         <meta name='description' content='any description' />
       </Head>
 
+      <TransitionEffect />
+
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text='Imagination Trumps Knowledge!' className='mb-16' />
@@ -110,7 +114,7 @@ const Projects = () => {
 
             <div className='col-span-6'>
               <Project
-                title='Online University Certificate Issuing SYSTEM'
+                title='Research Project - Kidney Diseases Detection Using Deep Learning'
                 img={project1}
                 link='http://localhost/Group%2011/Project/login.php'
                 github='https://github.com/SAYANISHAN98/Group-11-final.git'
@@ -120,10 +124,10 @@ const Projects = () => {
 
             <div className='col-span-6'>
               <Project
-                title='Online University Certificate Issuing SYSTEM'
-                img={project1}
-                link='http://localhost/Group%2011/Project/login.php'
-                github='https://github.com/SAYANISHAN98/Group-11-final.git'
+                title='Enterprise Networking Project (University OF JAFFNA Main Campus Network)'
+                img={project2}
+                link='https://github.com/ralfer-99/NetworkProject.git'
+                github='https://github.com/ralfer-99/NetworkProject.git'
                 type='Featured Project'
               />
             </div>

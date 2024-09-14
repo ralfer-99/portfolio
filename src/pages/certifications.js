@@ -16,6 +16,7 @@ import article8 from '../../public/images/articles/c6.jpg';
 import article9 from '../../public/images/articles/c3.png';
 import article10 from '../../public/images/articles/c8.jpg';
 import article11 from '../../public/images/articles/c5.jpg';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -120,6 +121,8 @@ const Certificates = () => {
         <title>Alfer | Certificate Page</title>
         <meta name='description' content='any description' />
       </Head>
+
+      <TransitionEffect />
 
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
         <Layout className='pt-16'>

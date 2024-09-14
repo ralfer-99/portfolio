@@ -7,6 +7,7 @@ import profilePic from '../../public/images/profile/Alfer.png';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '@/components/Skills';
 import Education from '@/components/Education';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -39,6 +40,7 @@ const About = () => {
         <title>Alfer | About Page</title>
         <meta name='description' content='any description' />
       </Head>
+<TransitionEffect />
 
       <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
