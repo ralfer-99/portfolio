@@ -6,9 +6,11 @@ import Link from 'next/link';
 import { GithubIcon } from '@/components/Icons';
 import Image from 'next/image';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
-import project2 from '../../public/images/projects/net.png';
 import Image1 from '../../public/images/articles/oucis.png';
 import Image2 from '../../public/images/articles/kidney.png';
+import Image3 from '../../public/images/projects/net.png'; 
+import Image4 from '../../public/images/articles/portfolio.png';
+import Image5 from '../../public/images/articles/garage.jpg';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -60,7 +62,7 @@ const Project = ({ title, type, img, link, github }) => {
 
       <Link href={link} target='_blank'
         className='w-full cursor-pointer overflow-hidden rounded-lg'>
-        <FramerImage src={Image2} alt={title} className='w-full h-auto'
+        <FramerImage src={img} alt={title} className='w-full h-auto'
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }} />
       </Link>
@@ -101,12 +103,12 @@ const Projects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32'>
             <div className='col-span-12'>
               <FeaturedProject
-                title='Online University Certificate Issuing SYSTEM'
+                title='Online University Certificate Issuing System'
                 img={project1}
                 summary='The system enables administrators to input student details, select certificate templates, and automatically generate personalized certificates. 
                 PHP handles backend logic, database interactions, and certificate generation, while Bootstrap ensures a responsive, user-friendly interface. 
                 Custom scripts manage form validation, certificate previews, and automated email distribution, streamlining the issuance process for accuracy and efficiency.'
-                link='http://localhost/Group%2011/Project/login.php'
+                link='https://github.com/SAYANISHAN98/Group-11-final.git'
                 github='https://github.com/SAYANISHAN98/Group-11-final.git'
                 type='Featured Project'
               />
@@ -115,9 +117,9 @@ const Projects = () => {
             <div className='col-span-6'>
               <Project
                 title='Research Project - Kidney Diseases Detection Using Deep Learning'
-                img={project1}
-                link='http://localhost/Group%2011/Project/login.php'
-                github='https://github.com/SAYANISHAN98/Group-11-final.git'
+                img={Image2}
+                link=''
+                github=''
                 type='Featured Project'
               />
             </div>
@@ -125,43 +127,35 @@ const Projects = () => {
             <div className='col-span-6'>
               <Project
                 title='Enterprise Networking Project (University OF JAFFNA Main Campus Network)'
-                img={project2}
+                img={Image3} 
                 link='https://github.com/ralfer-99/NetworkProject.git'
                 github='https://github.com/ralfer-99/NetworkProject.git'
                 type='Featured Project'
               />
             </div>
 
-            <div className='col-span-12'>
-              <FeaturedProject
-                title='Online University Certificate Issuing SYSTEM'
-                img={project1}
-                link='http://localhost/Group%2011/Project/login.php'
-                github='https://github.com/SAYANISHAN98/Group-11-final.git'
+            <div className='col-span-6'>
+              <Project
+                title='Portfolio, built with Next.js and styled using TailwindCSS, offers a sleek and modern design.'
+                img={Image4} 
+                link='https://github.com/ralfer-99/NetworkProject.git'
+                github='https://github.com/ralfer-99/portfolio.git'
                 type='Featured Project'
               />
             </div>
 
             <div className='col-span-6'>
               <Project
-                title='Online University Certificate Issuing SYSTEM'
-                img={project1}
-                link='http://localhost/Group%2011/Project/login.php'
-                github='https://github.com/SAYANISHAN98/Group-11-final.git'
+                title='Built Mobile Garage Management System using ReactJS, React Native for the frontend, and Spring Boot for the backend.'
+                img={Image5} 
+                link='https://github.com/Althaf27/MobileGarage.git'
+                github='https://github.com/Althaf27/MobileGarage.git'
                 type='Featured Project'
               />
             </div>
+          </div> 
 
-            <div className='col-span-6'>
-              <Project
-                title='Online University Certificate Issuing SYSTEM'
-                img={project1}
-                link='http://localhost/Group%2011/Project/login.php'
-                github='https://github.com/SAYANISHAN98/Group-11-final.git'
-                type='Featured Project'
-              />
-            </div>
-          </div>
+          
         </Layout>
       </main>
     </>

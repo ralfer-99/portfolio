@@ -16,6 +16,9 @@ import article8 from '../../public/images/articles/c6.jpg';
 import article9 from '../../public/images/articles/c3.png';
 import article10 from '../../public/images/articles/c8.jpg';
 import article11 from '../../public/images/articles/c5.jpg';
+import article12 from '../../public/images/articles/cert.jpg';
+import article13 from '../../public/images/articles/c2.png';
+import article14 from '../../public/images/articles/L1.png';
 import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
@@ -130,53 +133,80 @@ const Certificates = () => {
 
           <ul className='grid grid-cols-2 gap-16'>
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
+              title='Front-End Web Development'
+              summary='Completed the Front-End Web Development course at the University of Moratuwa with hands-on experience in assessments and practicals must have strengthened my skills.'
               link='/'
               img={article1}
             />
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
+              title='Research Method in Computer Science: Theory and Ethics'
+              summary='I recently participated in a Google Research workshop at University of Jaffna. 
+              It provided us with valuable insights into the essential components of effective research, from the initial proposal stage to understanding the theoretical underpinning and ensuring ethical conduct throughout the research process. '
               link='/'
               img={article2}
             />
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
+              title='Graphic Designing'
+              summary='provided you with essential skills in visual design, covering tools and techniques to create compelling graphics. 
+              This training likely enhanced my ability to produce professional-grade visual content for various media platforms.'
               link='/'
               img={article8}
             />
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
+              title='Web Design for Beginners'
+              summary='Successfully completed the Web Design for Beginners course has given me valuable hands-on experience through practicals and assessments, helping you build a strong foundation in web design concepts like HTML, CSS, and layout design. 
+              This knowledge is crucial for creating user-friendly and responsive websites.'
               link='/'
               img={article9}
             />
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
+              title='Sri Lanka Student Workshop on Computer Science'
+              summary='Through active participation in the SLSWCS at the Department of Computer Science, University of Jaffna, I gained valuable skills in effectively delivering poster presentations and managing spotlight sessions. This experience has likely enhanced my communication, presentation, and organizational abilities, which are essential for sharing research and ideas in a professional setting.'
               link='/'
               img={article10}
             />
+
+            <ul>
+
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
+              title='Certificate in Web Development'
+              summary='I have successfully completed a Certificate in Web Development, gaining the skills to design, build, and maintain websites. 
+              Throughout the course, I learned essential technologies such as HTML, CSS, JavaScript, and backend development, providing me with a well-rounded foundation in web development. 
+              This certification reflects my proficiency in creating responsive, dynamic, and user-friendly web applications.'
               link='/'
-              img={article11}
+              img={article11} 
+            /><br></br>
+
+             <FeaturedArticle
+              title='Mastering Deep Learning with Hands-On 2024'
+              summary='I recently attended the "Master Deep Learning: Convolutional Neural Networks and Beyond" workshop at the Department of Computer Science, University of Jaffna.
+This experience was incredibly rewarding, as I deepened my understanding of advanced deep learning techniques, especially CNNs. 
+I’m eager to leverage these new skills in upcoming projects.'
+              link='/'
+              img={article12} 
             />
+
+            </ul>
+
+            <FeaturedArticle
+              title='Python for Beginner'
+              summary='I have successfully completed the Python for Beginners course, where I gained a strong understanding of the fundamentals of Python programming. 
+              Through hands-on projects and exercises, I learned core concepts such as variables, loops, functions, and data structures. 
+              This course also helped me develop problem-solving skills by writing clean and efficient Python code.'
+              link='/'
+              img={article13} 
+            />
+
+<FeaturedArticle
+              title='Generative AI'
+              summary='I have gained valuable insights into AI-driven content creation through the Generative AI course on LinkedIn Learning. 
+              This course broadened my knowledge of machine learning models, neural networks, and the tools used for developing generative AI systems. 
+              The practical exercises provided me with hands-on experience in applying AI in creative and innovative ways.'
+              link='/'
+              img={article14} 
+            />
+           
+            
           </ul>
 
           <h2 className='font-bold text-4xl w-full text-center my-16'>
@@ -185,34 +215,37 @@ const Certificates = () => {
 
           <ul>
             <Activity
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='February 10, 2024'
+              title='I recently participated in a Google Research workshop at University of Jaffna.'
+              date='November 25, 2023'
               link='/'
               img={article3}
             />
             <Activity
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='February 10, 2024'
+              title='participation in the SLSWCS at the Department of Computer Science, University of Jaffna'
+              date='December 09, 2023'
               link='/'
               img={article4}
             />
             <Activity
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='February 10, 2024'
+              title='I attended the "Master Deep Learning: Convolutional Neural Networks and Beyond" workshop at the Department of Computer Science, University of Jaffna'
+              date='August 17, 2024'
               link='/'
               img={article5}
             />
             <Activity
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='February 10, 2024'
+              title='Student member of IEEE student branch at University of Jaffna'
+              date='September 01, 2021'
               link='/'
               img={article6}
             />
             <Activity
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='February 10, 2024'
+
+              title='Student member of Gavel Club at University of Jaffna'
+              date='September 01, 2021'
               link='/'
-              img={article7}
+              img={article7} 
+              
+
             />
           </ul>
         </Layout>
