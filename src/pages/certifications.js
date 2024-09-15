@@ -161,7 +161,12 @@ const Certificates = () => {
             />
             <FeaturedArticle
               title='Sri Lanka Student Workshop on Computer Science'
-              summary='Through active participation in the SLSWCS at the Department of Computer Science, University of Jaffna, I gained valuable skills in effectively delivering poster presentations and managing spotlight sessions. This experience has likely enhanced my communication, presentation, and organizational abilities, which are essential for sharing research and ideas in a professional setting.'
+              summary='Through my active involvement in the Sri Lanka Students’ Workshop on Computer Science (SLSWCS) at the Department of Computer Science, University of Jaffna, I acquired a wide range of practical skills essential for both academic and professional growth. 
+
+I honed my ability to effectively deliver poster presentations, allowing me to communicate complex research findings and innovative ideas in a visually engaging and concise manner. Additionally, managing spotlight sessions provided me with valuable organizational experience, requiring precise time management and the ability to facilitate productive discussions among peers and professionals.
+These experiences significantly improved my communication and presentation abilities, equipping me to share research in clear, persuasive, and engaging formats. Furthermore, they strengthened my organizational and leadership skills, which are vital for successfully navigating collaborative projects, academic forums, and professional environments.
+
+'
               link='/'
               img={article10}
             />
