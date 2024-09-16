@@ -51,13 +51,13 @@ const About = () => {
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>ABOUT ME</h2>
 
               <div className='my-4 font-medium'>
-                Hi, I'm Raheethus Alfer, a Software Engineer and Web Developer committed to crafting elegant, functional, and user-centric digital experiences with 1 years of industry experience. 
-                I consistently seek innovative methods to realize my clients' visions.
+                Hi, I&apos;m Raheethus Alfer, a Software Engineer and Web Developer committed to crafting elegant, functional, and user-centric digital experiences with 1 years of industry experience. 
+                I consistently seek innovative methods to realize my clients&apos; visions.
               </div>
              
 
               <div className='my-4 font-medium'>
-                I'm currently pursuing a Bachelor of Science in Computer Science at the University of Jaffna. My enthusiasm for learning motivates me to continuously expand my skills and knowledge. 
+                I&apos;m currently pursuing a Bachelor of Science in Computer Science at the University of Jaffna. My enthusiasm for learning motivates me to continuously expand my skills and knowledge. 
                 As a self-driven, detail-oriented, and creative professional, I am always looking for opportunities to refine my work and advance in my career.
               </div>
             </div>
