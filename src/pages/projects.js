@@ -9,6 +9,7 @@ import project1 from '../../public/images/projects/crypto-screener-cover-image.j
 import Image1 from '../../public/images/articles/oucis.png';
 import Image2 from '../../public/images/articles/kidney.png';
 import Image3 from '../../public/images/projects/net.png'; 
+import Image6 from '../../public/images/projects/emp.png'; 
 import Image4 from '../../public/images/articles/portfolio.png';
 import Image5 from '../../public/images/articles/garage.jpg';
 import { motion } from 'framer-motion';
@@ -153,7 +154,16 @@ const Projects = () => {
                 type='Featured Project'
               />
             </div>
-          </div> 
+          </div>  <br></br><br></br>
+          <div className='col-span-6'>
+              <Project
+                title='Developed Employee Management System using ReactJS for the frontend, and NodeJS for the backend.'
+                img={Image6} 
+                link='https://github.com/ralfer-99/EMS.git'
+                github='https://github.com/ralfer-99/EMS.git'
+                type='Featured Project'
+              />
+            </div>
 
           
         </Layout>

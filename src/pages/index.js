@@ -41,7 +41,7 @@ export default function Home() {
                 My passion lies in developing software that enriches user experiences. I am always eager to embrace new challenges and opportunities to enhance my skills and advance my career as a developer.
               </p>
               <div className='flex items-center mt-2'>
-                <a href='/dummy.pdf' target='_blank'
+                <a href='/CV-AlferSE.pdf' target='_blank'
                   className='flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border border-solid border-transparent hover:border-dark
