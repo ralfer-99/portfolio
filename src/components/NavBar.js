@@ -32,7 +32,7 @@ const NavBar = () => {
     return (
         <header className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light'>
             <nav>
-                <CustomLink href='/' title='Home' className='mr-4' />
+                <CustomLink href='/index' title='Home' className='mr-4' />
                 <CustomLink href='/about' title='About' className='mx-4' />
                 <CustomLink href='/projects' title='Projects' className='mx-4' />
                 <CustomLink href='/certifications' title='Certifications' className='ml-4' />
